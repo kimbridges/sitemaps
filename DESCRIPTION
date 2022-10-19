@@ -1,0 +1,25 @@
+Package: sitemaps
+Title: Builds Maps from Site Data Arranged in a Table Format
+Version: 0.2.0.001
+Authors@R: person("Kim", "Bridges", email = "kim@hawaii.edu",
+  role = c("aut", "cre"))
+Description: Uses simple functions, along with data tables and parameter lists, to create site-data maps on Google or Stamen basemaps.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports:
+    tibble,
+    ggrepel,
+    stringr,
+    ggplot2,
+    ggmap,
+    httr,
+    jsonlite,
+    exifr,
+    lubridate,
+    geosphere,
+    stats
+Suggests: 
+    knitr,
+    rmarkdown
